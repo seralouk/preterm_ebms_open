@@ -138,7 +138,7 @@ def default_events(events_set='data-driven'):
         #* Events
         event_markers_dict = {
             'Cortical gray matter total':  'Cortical GM',
-            'Unmyelinated white matter total':  'Unmyel WM',
+            'White matter total':  'WM',
             'Subcortical gray matter total':  'Subcortical GM',
             'CSF':  'CSF ',
             'Cerebellum':  'Cerebellum ',
@@ -146,7 +146,7 @@ def default_events(events_set='data-driven'):
         }
         event_markers = [
             'Cortical gray matter total',
-            'Unmyelinated white matter total',
+            'White matter total',
             'Subcortical gray matter total',
             'CSF',
             'Cerebellum',
