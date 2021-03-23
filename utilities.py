@@ -723,7 +723,7 @@ def fit_mixtures_x(df, marker, plot_bool=True, dx_column='DX', hist_bool=False,
     Subroutine designed for manual_check_kdemm()
     # Author: Serafeim Loukas and Neil Oxtoby
     """
-    class_names = ['Control (IUGR)',sub]
+    class_names = ['Control',sub]
     
     #* Extract data
     X = df[marker].values
